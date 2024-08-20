@@ -1,0 +1,1 @@
+Problem: The observable returned by http.get is not unsubscribed, which can lead to memory leaks if the component is destroyed before the observable completes. The interviewee should address this by either unsubscribing manually or using takeUntil, async pipe, or other appropriate methods.

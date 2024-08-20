@@ -1,0 +1,1 @@
+child component's onpush strategy should be changed to default
